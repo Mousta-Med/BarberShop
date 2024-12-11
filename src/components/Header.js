@@ -4,7 +4,6 @@ import Logo from "../assets/images/logo.png"
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
@@ -17,7 +16,7 @@ const Header = () => {
                         alt="BarberShop Logo"
                         className="h-12 w-12 rounded-full object-cover"
                     />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-yellow-500">
                         BarberShop
                     </span>
                 </a>
